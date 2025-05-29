@@ -2,6 +2,8 @@
 global $Guvenlik;
 global $VeriTabaniBaglantisi;
 global $ZamanDamgasi;
+
+
 if (isset($_POST['IsimSoyisim'])) {
     $GelenIsimSoyisim       = Guvenlik($_POST['IsimSoyisim']);
 }else{

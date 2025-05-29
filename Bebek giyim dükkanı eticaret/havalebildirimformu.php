@@ -1,7 +1,7 @@
 <table width="1065" align="center" border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td width="500" valign="top">
-            <form action="index.php?SK=10" method="post">
+            <form action="index.php?SK=17" method="post">
             <table width="500" align="center" border="0" cellpadding="0" cellspacing="0">
             <tr height ="40">
                 <td  style="color: #FF9900; "><H3>Havale Bildirim Formu</H3></td>
@@ -93,7 +93,9 @@
                 <td colspan="2" align="left">Müşteri tarafından öncelikle banka hesaplarımız sayfasında bulunan herhangi bir hesaba ödeme işlemi gerçekleştirilir.</td>
             </tr>
 
-            <td colspan="2">&nbsp;</td>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
 
             <tr height ="30">
                 <td align="left" width="30"><img src="Resimler/dokuman.png"style="margin-top: 3px" width="20" height="20" border="0"></td>
@@ -103,7 +105,9 @@
                 <td colspan="2" align="left">Ödeme işlemini tamamladıktan sonra "Havale Bildirim Formu" sayfasından müşteri yapmış olduğu ödeme için havale bildirim formunu doldurarak
                 on-line olarak gönderir.</td>
             </tr>
-            <td colspan="2">&nbsp;</td>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
             <tr height ="30">
                 <td align="left" width="30"><img src="Resimler/cark.png"style="margin-top: 3px" width="20" height="20" border="0"></td>
                 <td><b>Kontroller</b></td>
@@ -112,7 +116,9 @@
                 <td colspan="2" align="left">"Havale Bildirim Formu"'nuz  tarafımıza ulaştığı anda ilgili departman tarafından yapmış olduğunuz havale / EFT işlemi ilgili banka üzerinden kontrol
                     edilir</td>
             </tr>
-            <td colspan="2">&nbsp;</td>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
             <tr height ="30">
                 <td align="left" width="30"><img src="Resimler/yüz.jpg"style="margin-top: 3px" width="20" height="20" border="0"></td>
                 <td><b>Onay / Red</b></td>
@@ -120,7 +126,9 @@
             <tr height ="30">
                 <td colspan="2" align="left">"Havale bildirimi geçerli ise yani hesaba ödeme geçmiş ise, yönetici ilgili ödeme onayını vererek, siparişiniz teslimat birimine iletilir.</td>
             </tr>
-            <td colspan="2">&nbsp;</td>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
             <tr height ="30">
                 <td align="left" width="30"><img src="Resimler/zaman.png"style="margin-top: 3px" width="20" height="20" border="0"></td>
                 <td><b>Sipariş Hazırlama & Teslimat </b></td>

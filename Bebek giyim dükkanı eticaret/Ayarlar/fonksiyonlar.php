@@ -3,6 +3,14 @@
 $IPAdresi = $_SERVER["REMOTE_ADDR"];
 $ZamanDamgasi  = time();
 $TarihSaat = date("d.m.Y H:i:s", $ZamanDamgasi);
+
+
+function TarihBul($Deger)
+{
+    $Cevir = date("d.m.Y H:i:s", $Deger);
+    $Sonuc = $Cevir;
+    return $Sonuc;
+}
 function RakamlarHaricTumKarakterleriSil($Deger)
 {
     $Islem      =   preg_replace("/[^0-9]/", "", $Deger);
@@ -37,8 +45,22 @@ function SayiliIcerikleriFiltrele($Deger)
 
 
 }
+function AktivasyonKoduuret(){
+    $IlkBesli=rand(10000,99999);
+    $IkinciBesli=rand(10000,99999);
+    $UcuncuBesli=rand(10000,99999);
+    $DorduncuBesli=rand(10000,99999);
+    $Kod=$IlkBesli ."-". $IkinciBesli ."-". $UcuncuBesli ."-". $DorduncuBesli;
+    $Sonuc = $Kod;
+    return $Sonuc;
+}
 
-
+function FiyatiBicimlendir($Deger)
+{
+$Bicimlendir = number_format($Deger, "2",",",".");
+$Sonuc = $Bicimlendir;
+return $Sonuc;
+}
 
 
 
